@@ -179,7 +179,7 @@ Alternatively, you can create a Credentials block ahead of time and reference it
     ```
 
 !!! warning "Push your code"
-    When you make a change to your code, Prefect does push your code to your git-based version control platform. 
+    When you make a change to your code, Prefect does not push your code to your git-based version control platform. 
     You need to do push your code manually or as part of your CI/CD pipeline. 
     This design decision is an intentional one to avoid confusion about the git history and push process.
 
